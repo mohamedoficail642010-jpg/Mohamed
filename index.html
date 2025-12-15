@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>موقعي الشخصي</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 25px;
+      border-radius: 20px;
+      width: 320px;
+      text-align: center;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      margin-bottom: 15px;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 22px;
+    }
+    p {
+      margin: 0 0 20px;
+      font-size: 14px;
+      opacity: 0.8;
+    }
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      text-decoration: none;
+      color: #fff;
+      background: #1e90ff;
+      padding: 12px;
+      border-radius: 12px;
+      margin: 10px 0;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+    .links a:hover {
+      transform: scale(1.05);
+      background: #00bfff;
+    }
+    .links img {
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- صورة شخصية -->
+    <img src="profile.jpg" alt="صورتك الشخصية" class="profile-img" />
+
+    <h1>Mohamed</h1>
+    <p>تابعني على السوشيال ميديا</p>
+
+    <div class="links">
+      <!-- واتساب -->
+      <a href="https://wa.me/201044404129" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" />
+        WhatsApp
+      </a>
+
+      <!-- تيك توك -->
+      <a href="https://www.tiktok.com/@the.epic.mohamed?is_from_webapp=1&sender_device=pc" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" />
+        TikTok
+      </a>
+
+      <!-- يوتيوب -->
+      <a href="https://www.youtube.com/@TheEpicMohamed/shorts" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" />
+        YouTube
+      </a>
+    </div>
+  </div>
+</body>
+</html>
